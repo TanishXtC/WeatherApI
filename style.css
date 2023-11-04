@@ -1,0 +1,20 @@
+body{
+    height: 100vh;
+    
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#e74890,#253fb5);
+    user-select: none;
+}
+.blurr{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: white;
+    filter:blur(10px);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.blurr:hover{
+    filter: blur(0px);
+}
