@@ -3,18 +3,25 @@ body{
     
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg,#e74890,#253fb5);
+    background: linear-gradient(135deg,#ac9cc9,#606992);
     user-select: none;
 }
 .blurr{
-    font-family: sans-serif;
+    font-family:  Geneva, Tahoma, sans-serif;
     font-weight: 700;
     font-size: 5rem;
-    color: white;
+    color: rgb(0, 0, 0);
     filter:blur(10px);
     transition: 0.5s;
     cursor: pointer;
 }
 .blurr:hover{
     filter: blur(0px);
+}
+.card{
+    background-color: #b3b7c4;
+}
+.text-start{
+    background-color: transparent;
+     
 }

@@ -10,8 +10,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -72,7 +71,9 @@
     </nav>
 
     <div class="container">
-      <h1 class="my-4 text-center" ><span class="blurr">Weather for <span id="cityName"></span></span> </h1>
+      <h1 class="my-4 text-center">
+        <span class="blurr">Weather for <span id="cityName"></span></span>
+      </h1>
       <main>
         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
           <div class="col">
@@ -90,7 +91,6 @@
                   <li>Min Temperature is <span id="min_temp"></span></li>
                   <li>Max Temperature is <span id="max_temp"></span></li>
                 </ul>
-      
               </div>
             </div>
           </div>
@@ -101,75 +101,74 @@
               </div>
               <div class="card-body">
                 <h1 class="card-title pricing-card-title">
-                  <span id="humidity2"></span><small class="text-body-secondary fw-light"> %</small>
+                  <span id="humidity2"></span
+                  ><small class="text-body-secondary fw-light"> %</small>
                 </h1>
                 <ul class="list-unstyled mt-3 mb-4">
                   <li>CLOUD PCT is <span id="cloud_pct"></span></li>
                   <li>Feels_like is <span id="feels_like"></span></li>
                   <li>Humidity is <span id="humidity"></span></li>
-                  
                 </ul>
-               
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm border-primary">
-              <div class="card-header py-3 ">
+              <div class="card-header py-3">
                 <h4 class="my-0 fw-normal">Wind Info</h4>
               </div>
               <div class="card-body">
                 <h1 class="card-title pricing-card-title">
-                  <span id="wind_speed2"></span><small class="text-body-secondary fw-light"> km/hr</small>
+                  <span id="wind_speed2"></span
+                  ><small class="text-body-secondary fw-light"> km/hr</small>
                 </h1>
                 <ul class="list-unstyled mt-3 mb-4">
                   <li>Wind speed is <span id="wind_speed"></span></li>
                   <li>Wind degrees is <span id="wind_degrees"></span></li>
-                  <li>Sunrise time  is <span id="sunrise"></span></li>
-                  <li>Sunset time  is <span id="sunset"></span></li>
+                  <li>Sunrise time is <span id="sunrise"></span></li>
+                  <li>Sunset time is <span id="sunset"></span></li>
                 </ul>
-                
               </div>
             </div>
           </div>
         </div>
 
-        <h2 class="display-6 text-center mb-4">
+        <!-- <h2 class="display-6 text-center mb-4">
           Weather Of Other Commom Cities
         </h2>
 
-        <div class="table-responsive">
-          <table class="table text-center">
+        <div class="card table-responsive">
+          <table class="a table text-center">
             <thead>
-                <tr>
-                  <th style="width: 34%"></th>
-                  <th style="width: 22%">Cloud_pct</th>
-                  <th style="width: 22%">Feels_like</th>
-                  <th style="width: 22%">Humidity</th>
-                  <th style="width: 22%">Max_temp</th>
-                  <th style="width: 22%">min_temp</th>
-                  <th style="width: 22%">Sunrise</th>
-                  <th style="width: 22%">Sunset</th>
-                  <th style="width: 22%">Temp</th>
-                  <th style="width: 22%">Wind_degrees</th>
-                  <th style="width: 22%">Wind_speed</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row" class="text-start">Ontario</th>
-                  <td>1</td>
-                  <td>2</td>
-                  <td>3</td>
-                  <td>4</td>
-                  <td>5</td>
-                  <td>6</td>
-                  <td>7</td>
-                  <td>8</td>
-                  <td>9</td>
-                  <td>10</td>
-                </tr>
-              </tbody>
+              <tr>
+                <th style="width: 34%"></th>
+                <th style="width: 22%">Cloud_pct</th>
+                <th style="width: 22%">Feels_like</th>
+                <th style="width: 22%">Humidity</th>
+                <th style="width: 22%">Max_temp</th>
+                <th style="width: 22%">min_temp</th>
+                <th style="width: 22%">Sunrise</th>
+                <th style="width: 22%">Sunset</th>
+                <th style="width: 22%">Temp</th>
+                <th style="width: 22%">Wind_degrees</th>
+                <th style="width: 22%">Wind_speed</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start">Ontario</th>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+              </tr>
+            </tbody>
             <tbody>
               <tr>
                 <th scope="row" class="text-start">New Castle</th>
@@ -200,10 +199,9 @@
                 <td>9</td>
                 <td>10</td>
               </tr>
-              
             </tbody>
             <tbody>
-                <tr>
+              <tr>
                 <th scope="row" class="text-start">Mumbai</th>
                 <td>1</td>
                 <td>2</td>
@@ -216,10 +214,9 @@
                 <td>9</td>
                 <td>10</td>
               </tr>
-              
             </tbody>
             <tbody>
-                <tr>
+              <tr>
                 <th scope="row" class="text-start">Chandigarh</th>
                 <td>1</td>
                 <td>2</td>
@@ -234,7 +231,7 @@
               </tr>
             </tbody>
           </table>
-        </div>
+        </div> -->
       </main>
     </div>
     <script
